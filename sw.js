@@ -1,7 +1,7 @@
 /* Old Quarter Review service worker.
    Strategy: pages network-first (content is never stale), static assets
    cache-first. Version the cache name on every release that changes it. */
-const CACHE = "oqr-v1";
+const CACHE = "oqr-v2";
 const CORE = ["./", "./plan/", "./toolkit/", "./quiz/", "./my-list/", "./live/", "./after-dark/", "./images/hero.jpg", "./images/logo.png"];
 
 self.addEventListener("install", (event) => {
