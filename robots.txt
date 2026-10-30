@@ -1,4 +1,5 @@
-User-agent: *
+User-Agent: *
 Allow: /
+Disallow: /go/
 
-Sitemap: https://old-quarter-review.pages.dev/sitemap.xml
+Sitemap: https://travel.feesave.space/sitemap.xml
